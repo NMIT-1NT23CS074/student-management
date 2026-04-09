@@ -11,11 +11,7 @@ pipeline {
 
     stages {
 
-        stage('Git Checkout') {
-            steps {
-                git 'https://github.com/NMIT-1NT23CS074/student-management.git'
-            }
-        }
+        
 
         stage('Build') {
             steps {
