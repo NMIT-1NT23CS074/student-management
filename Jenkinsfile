@@ -13,7 +13,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-                git 'https://github.com/NMIT-1Nt23CS074/student-management.git'
+                git 'https://github.com/NMIT-1NT23CS074/student-management.git'
             }
         }
 
